@@ -15,7 +15,9 @@ Product is a collection of APIs which can be published
 4. Fill in API product detail 
 
 <br/>
+
 ![Create Product Detail](./assets/apim-add-product-02.png)
+
 <br/>
 
 - Name (name of product)
@@ -31,7 +33,20 @@ Product is a collection of APIs which can be published
 
 
 ## Add API(s) to Product
+Before add APIs to Product, you must have APIs created (or import) to Azure API Management instance first. (assume that this step is done in the previous topics)
 
+
+1. Login to console and navigate to your API management instance, Product and select the product that you want to add APIs to
+2. Select `Products` from menu plane (left-hand side)
+3. Select `APIs` from the menu plane and then click `+ Add` to add APIs to Product
+3. Select APIs from the list and then click `Select` to add APIs to Product
+
+<br/>
+
+![Add APIs to Product](./assets/apim-add-api-product-01.png)
+
+<br/>
+<br/>
 
 
 ## Configure Subscription
