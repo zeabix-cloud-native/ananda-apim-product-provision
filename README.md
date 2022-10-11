@@ -23,7 +23,7 @@ Product is a collection of APIs which can be published
 - Name (name of product)
 - ID (this value will be auto generated from name, but can be adjusted)
 - Description
-- Publish (Leave unchecked for this stage)
+- Publish : (Leave unchecked for this stage)
 - Requires Subscription (Leave unchecked for this stage)
 - Requires Approval (Leave it unchecked)
 - Legal term (Optional)
@@ -47,6 +47,20 @@ Before add APIs to Product, you must have APIs created (or import) to Azure API 
 
 <br/>
 <br/>
+
+## Publish APIs
+In the previous section we have create `Product` and configure APIs for it, however the state of this product is still `Not published`. In order to publish the API for this product, please follow the next steps
+
+<br/>
+
+![Publish APIs](./assets/apim-api-publish-01.png)
+
+<br/>
+
+1. Login to Azure Portal and navigate to your Azure API Management instance
+2. Menu `Products` and then select your product that created previously
+3. Select `Settings` from menu and then change state from `Not published` to `Published` then click `Save` to apply the change
+
 
 
 ## Configure Subscription
